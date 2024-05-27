@@ -1,0 +1,5 @@
+port: 5432
+username: heroes_user
+password: password
+databaseName: proyecto3_conduitdb
+host: localhost
