@@ -1,0 +1,9 @@
+conduit db upgrade --connect postgres://heroes_user:password@localhost:5432/proyecto3_conduitdb
+
+Donde:
+
+-heroes_user = usuario en postgres (Si no existe añadir en roles y darle todos los permisos)
+-password = contraseña del usuario 
+-localhost = host donde esta alojada la base de datos 
+-5432 = puerto de la base de datos 
+-proyecto3_conduitdb = nombre de la base de datos
